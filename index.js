@@ -6,7 +6,25 @@ module.exports = {
         ],
         css: [
             "rewrite.css"
-        ]
+        ],
+        html: {
+                    "html:start": function() {
+                        return "<!-- Start book "+this.options.title+" -->"
+                    },
+                    "html:end": function() {
+                        return "<!-- End of book "+this.options.title+" -->"
+                    },
+
+                    "head:start": function () {
+                        return "<!-- head:start -->"
+                    },
+                    "head:end": function () {
+                        return "<link rel='apple-touch-icon-precomposed' sizes='57x57' href='/images/apple-touch-icon-precomposed-152.png'><link rel='shortcut icon' href='/images/favicon.ico' type='image/x-icon'>"
+                    },
+
+                    "body:start": "<!-- body:start -->",
+                    "body:end": "<!-- body:end -->"
+                }
     },
     hooks: {
         // For all the hooks, this represent the current generator
