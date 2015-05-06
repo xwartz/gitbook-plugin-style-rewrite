@@ -1,5 +1,5 @@
 {
-  "name": "gitbook-style-rewrite",
+  "name": "gitbook-plugin-style-rewrite",
   "description": "Gitbook plugin",
   "version": "0.0.4",
   "engines": {
