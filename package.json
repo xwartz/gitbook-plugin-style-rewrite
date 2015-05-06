@@ -1,18 +1,18 @@
 {
   "name": "gitbook-plugin-style-rewrite",
   "description": "Gitbook plugin",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "engines": {
     "gitbook": "*"
   },
-  "homepage": "https://github.com/xwartz/plugin-gitbook-style-rewrite/",
+  "homepage": "https://github.com/xwartz/gitbook-plugin-style-rewrite/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xwartz/plugin-gitbook-style-rewrite"
+    "url": "https://github.com/xwartz/gitbook-plugin-style-rewrite"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xwartz/plugin-gitbook-style-rewrite/issues"
+    "url": "https://github.com/xwartz/gitbook-plugin-style-rewrite/issues"
   },
   "directories": {}
 }
