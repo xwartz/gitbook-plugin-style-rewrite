@@ -1,9 +1,9 @@
 {
   "name": "gitbook-plugin-style-rewrite",
   "description": "Gitbook plugin",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "engines": {
-    "gitbook": "*"
+    "gitbook": ">=2.0.0"
   },
   "homepage": "https://github.com/xwartz/gitbook-plugin-style-rewrite/",
   "repository": {
